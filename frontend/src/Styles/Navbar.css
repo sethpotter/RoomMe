@@ -1,0 +1,40 @@
+.logo-wrapper {
+    text-decoration: none;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+.logo-text {
+    color: #0088FF;
+    font-size: 2rem;
+}
+
+.text-color-white {
+    color: #ffffff;
+
+}
+.logo-img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+}
+
+.global-nav {
+    color: white;
+    padding: 1rem 0rem;
+}
+
+.nav-container {
+    margin: 0rem auto;
+    max-width: 84rem;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+}

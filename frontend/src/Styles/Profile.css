@@ -1,0 +1,47 @@
+.edit-background {
+    background-color: #F2F2F2;
+}
+
+.prefs-form-field {
+    margin-top: 1rem;
+}
+
+.prefs-form-field > div {
+    padding-bottom: 0.5rem;
+}
+
+.profile-file-upload {
+    display: flex;
+    width: 85%;
+    height: 85%;
+    border: 2px dashed lightgray;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.75;
+    cursor: pointer;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-file-upload:hover {
+    filter: brightness(0.75);
+}
+
+.profile-file-upload p {
+    margin: 0;
+}
+
+.profile-file-upload > img {
+    padding-bottom: 0.75rem;
+}
+
+.light-bold {
+    font-weight: 500;
+}
+
+.layer {
+    grid-column: 1;
+    grid-row: 1;
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+.list-wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 4rem;
+}
+
+.list-heading {
+    margin-bottom: 1rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-card * {
+    font-family: Poppins, serif;
+}
+
+.user-card {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+}
+
+.user-card:hover {
+    border: 1px rgb(151, 151, 151) solid;
+}
+
+/* .user-card:active {
+    background-color: rgb(221, 221, 221)
+} */
+
+.user-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.75rem;
+    align-self: start;
+}
+
+.gender-icon {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    background-color: #0088FF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 0.05rem;
+}
+
+.prefs {
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+}
+
+.prefs-tag {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: #EDEDED;
+    text-align: center;
+}
+
+.img-large {
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+.user-card > button {
+    margin-top: 1rem;
+}

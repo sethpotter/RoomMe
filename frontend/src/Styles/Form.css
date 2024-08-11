@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700");
+
+.form-center-section {
+  background-color: #0088FF;
+  padding: 4rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.form-container {
+  max-width: 40rem;
+  padding: 0rem 2rem;
+}
+
+.form {
+  text-align: left;
+  position: static;
+  border-radius: 0.2rem;
+  color: black;
+  display: grid;
+  grid-gap: 1.5rem;
+  background-color: #fbfaff;
+  padding: 2rem;
+  min-width: 30rem;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-field {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.form-label {
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  font-family: inherit;
+  border-radius: 0.2rem;
+  border: 1px solid #c4c4c4;
+  padding: 1rem;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.form-input::placeholder {
+  color: grey;
+}
+
+.form-button {
+  cursor: pointer;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 700;
+  color: white;
+  background: #0088FF;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.form-button:hover {
+  background: #0088FF;
+;
+}
+
+.form-field-link {
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #0088FF;
+}
+
+.double-form-field-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1;
+  grid-column-gap: 16px;
+  grid-row-gap: 0px;
+}
+
+#form-error {
+  display: none;
+  background-color: rgb(255, 204, 195);
+  color: red;
+  padding: 1rem;
+  text-align: center;
+}
+
+.form-checkbox-field > label {
+  position: relative;
+  top: 1px;
+}
+
+.form-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Inter, serif;
+  width: 16px;
+  height: 16px;
+  padding-top: 1rem;
+  margin-right: 0.75rem;
+}

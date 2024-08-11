@@ -1,0 +1,68 @@
+#search {
+    padding-top: 2px;
+}
+
+#message {
+    padding-top: 3px;
+}
+
+#profile {
+    padding-top: 2px;
+}
+
+#settings {
+    padding-top: 3px;
+}
+
+.global-sidebar {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    padding-top: 2rem;
+    background-color: white;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+
+    -webkit-box-shadow: 3px 0px 20px 11px rgba(0,0,0,0.1); 
+    box-shadow: 3px 0px 30px 5px rgba(0,0,0,0.1);
+}
+
+.logo-pad {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sidebar-text-color {
+    color: #0088FF;
+}
+
+.sidebar-links {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-gap: 2rem; */
+    align-items: start;
+}
+
+
+.sidebar-button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background: none;
+    color: black;
+    align-items: start;
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+  
+
+.sidebar-button:hover {
+    background: rgba(0, 0, 0, 0.103);;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}

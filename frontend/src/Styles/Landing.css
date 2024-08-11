@@ -1,0 +1,44 @@
+.landing-section {
+    background-color: #ffffff;
+    padding: 2rem 0rem;
+    color: rgb(0, 0, 0);
+}
+
+.landing-container {
+    margin: 0rem auto;
+    padding: 2rem 0rem;
+    max-width: 64rem;
+
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    column-gap: 4rem;
+}
+
+.landing-content {
+  align-self: center;
+}
+
+.landing-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.landing-body {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.landing-image {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.landing-button {
+    max-width: 10rem;
+    background-color: #0088FF;
+    white-space: nowrap;
+}
+
+.landing-button:hover {
+    background-color: #006cca;
+}
